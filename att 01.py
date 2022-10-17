@@ -56,3 +56,17 @@ elif r == 3:
 
 else: 
     print('Essa não é uma opção. Retorne ao menu >.<')
+    while (r != 1 and 2 and 3):
+        print ('-=          Bem-Vindo de volta ao menu          =-')
+        time.sleep(2)
+        print ('Suas escolhas: ')
+        time.sleep(1)
+        print ('[ 1 ] Função para retornar o menor valor.')
+        time.sleep(1)
+        print ('[ 2 ] Função para ver a distância entre dois pontos.')
+        time.sleep(1)
+        print ('[ 3 ] Função de potência.')
+        time.sleep(3)
+        r = int(input('Escolha: '))
+
+        print('PENSANDO...')
